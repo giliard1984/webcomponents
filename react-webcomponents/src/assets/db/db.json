@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": "1a88d0de-9f09-4f7b-9282-0a5131178e70",
+      "title": "Faire les courses",
+      "description": "Pomme, poire, lessive",
+      "priority": 2,
+      "createdAt": "2024-07-18T10:01:22.864Z",
+      "updatedAt": null
+    },
+    {
+      "id": "0096faa6-a0de-4c2c-97f1-2fc044af62a4",
+      "title": "Envoyer le courrier",
+      "description": "Urgent",
+      "priority": 3,
+      "createdAt": "2024-07-18T12:05:46.864Z",
+      "updatedAt": null
+    },
+    {
+      "id": "028974fa-f970-49e1-9761-e77bc8dcd30f",
+      "title": "Lire le journal",
+      "description": "Smashing magazine, sidebar.io, Hacker News",
+      "priority": 1,
+      "createdAt": "2024-07-18T14:02:42.864Z",
+      "updatedAt": null
+    }
+  ]
+}
