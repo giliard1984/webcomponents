@@ -7,6 +7,9 @@ export default defineConfig({
   plugins: [react()],
   build: {
     // outDir: "dist",
+    minify: "esbuild",
+    // cssCodeSplit: false,
+    sourcemap: true,
     rollupOptions: {
       output: {
           assetFileNames: `${pkg.version}/[ext]/[name][extname]`,

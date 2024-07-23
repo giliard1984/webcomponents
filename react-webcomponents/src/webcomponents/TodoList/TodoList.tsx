@@ -160,11 +160,38 @@ export const TodoList: React.FC<Props> = () => {
 
 class Element extends HTMLElement {
   root?: Root;
+  _internals: ElementInternals;
 
   constructor() {
     super();
 
+    // this.attachShadow({ mode: "open" });
+    // let container = document.createElement("div");
+    // const shadowRoot = container.attachShadow({ mode: "open" });
+    // this.root = createRoot(shadowRoot);
+    // this works
+    this._internals = this.attachInternals();
     this.root = createRoot(this);
+
+    // create root container where react element will be inserted
+    // let container = document.createElement("div");
+    // container.classList.add("react-container");
+
+    // // attach shadow DOM to container
+    // const shadowRoot = container.attachShadow({ mode: "open" });
+
+    // // create react element
+    // // const reactButton = <button>Submit</button>;
+
+    // // get hold of an existing element in HTML DOM
+    // // const domElement = document.getElementById("name");
+    // const domElement = document.getElementById("webcomponents-bundle");
+
+    // // insert root container element in HTML DOM after the existing element
+    // domElement?.after(container);
+
+    // // shadow DOM as react root
+    // this.root = createRoot(shadowRoot);
   }
 
   static get observedAttributes(): string[] {
