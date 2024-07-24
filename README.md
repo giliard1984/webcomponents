@@ -23,5 +23,22 @@ Run `yarn run dev`
   Frontend: http://localhost:5173/
   JSON Server: http://localhost:5174/
 
+  Generating a new bundle: You can tweak the component, and run `yarn run build`, which will generate a new bundle (/dist/<specific version folder>).
+
   ![image](https://github.com/user-attachments/assets/fd175d5e-dff7-4aed-a94b-798452519886)
   ![image](https://github.com/user-attachments/assets/e3e99f3d-d848-4793-afd2-18b68f22c0ff)
+
+
+## Setting Up & starting the vue project
+
+For the frontend, please guarantee you have node 20+ installed on your machine.
+
+Please access the `vue-application` folder, which is the project that contains the injected webcomponents.
+Run `yarn install`
+Run `yarn run dev`
+  This command should start the react project (PORT=5175) and the json server (PORT=5174)
+  Frontend: http://localhost:5175/
+
+If you want to see the newly generated bundle, please copy the specific version folder (react), into /public/bundle, and update the version in the index.html. 
+
+![image](https://github.com/user-attachments/assets/da846c08-47b0-48bd-9a20-4b02b37155b6)
