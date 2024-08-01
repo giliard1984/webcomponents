@@ -17,11 +17,11 @@ Note: Even though it is frontend related, I didn't focus on the FE side of it, a
 For the frontend, please guarantee you have node 20+ installed on your machine.
 
 Please access the `react-webcomponents` folder, which is the project that generates the webcomponents to us.
-Run `yarn install`
-Run `yarn run dev`
-  This command should start the react project (PORT=5173) and the json server (PORT=5174)
-  Frontend: http://localhost:5173/
-  JSON Server: http://localhost:5174/
+* Run `yarn install`
+* Run `yarn run dev`
+  * This command should start the react project (PORT=5173) and the json server (PORT=5174)
+  * Frontend: http://localhost:5173/
+  * JSON Server: http://localhost:5174/
 
   Generating a new bundle: You can tweak the component, and run `yarn run build`, which will generate a new bundle (/dist/<specific version folder>).
 
@@ -34,10 +34,10 @@ Run `yarn run dev`
 For the frontend, please guarantee you have node 20+ installed on your machine.
 
 Please access the `vue-application` folder, which is the project that contains the injected webcomponents.
-Run `yarn install`
-Run `yarn run dev`
-  This command should start the react project (PORT=5175) and the json server (PORT=5174)
-  Frontend: http://localhost:5175/
+* Run `yarn install`
+* Run `yarn run dev`
+  * This command should start the react project (PORT=5175) and the json server (PORT=5174)
+  * Frontend: http://localhost:5175/
 
 If you want to see the newly generated bundle, please copy the specific version folder (react), into /public/bundle, and update the version in the index.html. 
 
